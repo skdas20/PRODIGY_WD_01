@@ -17,7 +17,7 @@
 }
 
 body {
-  background-image: url('assets/bg.png');
+  background-image: url('/assets/bg.png');
   background-size: cover;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden; /* Prevent horizontal scrolling */
