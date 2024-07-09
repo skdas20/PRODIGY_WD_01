@@ -19,9 +19,6 @@ const scrollRevealOption = {
   origin: "bottom",
   duration: 1000,
 };
-ScrollReveal().reaveal("nav__links",{ 
-  ...scrollRevealOption,
-  delay: 300,});
 
 ScrollReveal().reveal("img", {
   ...scrollRevealOption,
