@@ -27,7 +27,18 @@ a {
   text-decoration: none;
   transition: 0.3s;
 }
-
+@media (min-width: 768px) {
+  nav {
+    position: static;
+    padding-block: 2rem 0;
+    padding-inline: 1rem;
+    max-width: var(--max-width);
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
 nav {
   position: fixed;
   width: 100%;
@@ -240,7 +251,7 @@ border-color:blue;
 
   .header__content :is(h1, p, .bar) {
     text-align: left;
-  }
+  }}
 @media (min-width: 768px) {
   nav {
     position: static;
@@ -264,15 +275,4 @@ border-color:blue;
   }
 }
 
-@media (min-width: 768px) {
-  nav {
-    position: static;
-    padding-block: 2rem 0;
-    padding-inline: 1rem;
-    max-width: var(--max-width);
-    margin-inline: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-  }
+
